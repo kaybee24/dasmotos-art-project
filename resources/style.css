@@ -2,31 +2,51 @@
   margin: 0rem 1rem;
 }
 
-h1 {
-  font: 700 5rem/1.2 "Helvetica";
-  color: rgb(240, 229, 139, 1);
-  margin-bottom: 2.5rem;
+#content-1, 
+#content-2,
+#content-3,
+#content-teaser {
+  margin-bottom: 5rem;
 }
+
+#content-teaser {
+  background-color: rgba(31, 31, 31, .2);
+  text-align: center;
+  width: 100%;
+  padding: 1.5rem 0rem;
+}
+
+h1 {
+  font: 700 5rem/1.2 "Lato";
+  color: rgb(31, 31, 31);
+  margin-bottom: 2rem;
+}
+
 h2 {
-  font: 700 1.6rem/1.2 "Helvetica";
+  font: 700 1.6rem/1.2 "Lato";
   margin-bottom: 0.75rem;;
 }
+
 #content-1 h2 {
   color: rgba(113, 176, 151, 1);
 }
+
 #content-2 h2 {
   color: rgba(240, 128, 128, 1);
 }
+
 #content-3 h2 {
   color: rgba(134, 206, 235, 1);
 }
+
 h3 {
-  font: 700 1.2rem/1.2 "Helvetica";
+  font: 700 1.2rem/1.2 "Lato";
   color: rgb(41, 41, 41);
   margin-top: 1rem;
 }
+
 p {
-  font: 400 1rem/1.5 "Helvetica";
+  font: 400 1rem/1.5 "Lato";
   color: rgb(31, 31, 31);
   margin-bottom: 2.4rem;
 }
@@ -44,7 +64,45 @@ p {
 } 
 
 .img-3cols {
-  width: 90%;
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 2px;
+  padding: 1rem 2rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: white;
+  color: rgb(31, 31, 31);
+  border: 2px solid rgb(31, 31, 31);
+}
+
+.btn-primary:hover {
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: rgb(255, 255, 255, .3);
+  color: rgb(31, 31, 31);
+  border: 2px solid rgb(31, 31, 31);
+  border-radius: 2px;
+  padding: 1rem 2rem;
+  transition-duration: 0.4s;
+}
+
+.btn-secondary:hover {
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+footer p {
+  font: 300 0.8rem/1.2 "Lato";
+  text-align: center;
 }
 
 @media (max-width: 768px) {
